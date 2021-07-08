@@ -1,0 +1,1 @@
+import Plugin from"@ckeditor/ckeditor5-core/src/plugin";import AlignmentEditing from"./alignmentediting";import AlignmentUI from"./alignmentui";export default class Alignment extends Plugin{static get requires(){return[AlignmentEditing,AlignmentUI]}static get pluginName(){return"Alignment"}}
